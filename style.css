@@ -445,7 +445,7 @@ body {
 /* ─── Camp ─── */
 .camp-layout {
   display: grid;
-  grid-template-columns: 1fr 380px;
+  grid-template-columns: 1fr 440px;
   gap: 48px;
   align-items: start;
 }
@@ -490,9 +490,10 @@ body {
 
 .camp-info-row {
   padding: 14px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 16px;
+  align-items: baseline;
   border-bottom: 1px solid var(--gray-100);
   font-size: .9rem;
 }
